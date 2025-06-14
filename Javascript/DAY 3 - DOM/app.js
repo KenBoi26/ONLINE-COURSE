@@ -11,3 +11,11 @@ alert('Hello ' + text + '!');
 console.log(window.innerWidth);
 console.log(window.innerHeight);
 
+console.log(window.document);
+console.dir(window.document);
+
+const elem = document.getElementsByTagName('h6');
+
+
+
+elem.style.textAlign = 'center';
